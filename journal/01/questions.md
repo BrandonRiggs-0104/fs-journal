@@ -25,7 +25,7 @@
     > | ANSWER HERE |
 
 07. How do you think good design influences people when visiting a website, and what sorts of things could you convey through design alone?
-    > | ANSWER HERE |
+    > |A website with an attractive or exciting design can help keep the customer browsing for more products as well as create excitement in purchasing a product or service from the website.|
 
 08. What is the purpose of ***wireframing***?
     > | ANSWER HERE |
