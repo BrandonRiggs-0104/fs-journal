@@ -6,7 +6,7 @@
     > | make a directory in the command line|
 
 03. What is a ***pseudo-class*** and what are some of the most common ones you think you will use?
-    > | ANSWER HERE |
+    > it's used to highlight something on your page, such as a hyperlink or a button turning a different shade when you mouse over it.
 
 04. What is ***specificity*** and how might you use it to your benefit?
     > | ANSWER HERE |
