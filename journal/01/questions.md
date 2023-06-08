@@ -28,10 +28,10 @@
     > |A website with an attractive or exciting design can help keep the customer browsing for more products as well as create excitement in purchasing a product or service from the website.|
 
 08. What is the purpose of ***wireframing***?
-    > | ANSWER HERE |
+    > To have an outline while creating a webpage so you can see what you are trying to achieve while styling insted of making it up as you go.
 
 09. Do you think wireframes are worth the time, energy, and effort that they require? Why or Why not?
-    > | ANSWER HERE |
+    > Yes i think they are extremely useful because they help the developer have a clear thought process but seeing what it is they are trying to achieve for themselves or for a client instead of try to make it up as they build it.
 
 10. Define the display `:flex property:`
     > | ANSWER HERE |
