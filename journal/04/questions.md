@@ -1,16 +1,16 @@
 # Understanding Asynchronous Code, and API's
 01. What is the difference between `asynchronous` code and `synchronous` code?
 
-  > | ANSWER HERE |
+  > | asynchronous is non-blocking so each task isn't dependent on another to run while synchronous code does require the code before it to be ran before it can be executed.
 
 02. What is an event listener?
 
-  > | ANSWER HERE |
+  > | is a procedure that waits for an event to happen like a user clicking something on the page.
 
 03. What does *REST* stand for, and in simple terms what does it mean??
 
-  > | ANSWER HERE |
-
+  > | Representational State Transfer, which means that when a request is made the server will transfer a representation of the state of the requested source.
+  
 04. What is a callback / higher order function?
 
   > | ANSWER HERE |
