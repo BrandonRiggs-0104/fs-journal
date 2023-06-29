@@ -37,7 +37,7 @@
 
 10. What is `HTTP` response code for a successful request?
 
-  > | ANSWER HERE |
+  > | code 200
 
 11. What is a 400 error?
 
