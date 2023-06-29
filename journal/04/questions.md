@@ -10,7 +10,7 @@
 03. What does *REST* stand for, and in simple terms what does it mean??
 
   > | Representational State Transfer, which means that when a request is made the server will transfer a representation of the state of the requested source.
-  
+
 04. What is a callback / higher order function?
 
   > | ANSWER HERE |
@@ -41,4 +41,4 @@
 
 11. What is a 400 error?
 
-  > | ANSWER HERE |
+  > | the server cannot process the request due to something that is perceived to be a client error
