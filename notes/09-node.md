@@ -47,4 +47,24 @@
 
 14) When allowing users to post to your api, always put your parameters as async ____(req, res, next) followed by a try/catch.
 
-15) 
+// SECTION day-2 //
+
+1) Make sure to open in workspace, it should only contain a client folder and a server folder.
+
+2) When filling out the .env file, go to Mongodb and click connect and grab the connection string and copy and paste it into the .env CONNECTION_STRING. 
+
+3) To fill out Auth requirements go to auth0 and click applications and click myapp and copy and paste my domain, client id. Under the api tab you can find the api audience next to the api you created. Then copy and paste the AUTH information from .env to env.js.
+
+4) Inside the model, when exporting it on the bottom it will go like export const ___Schema = new Schema({
+  make: {type: ___, required: true, maxlength: __, minlength: __},
+  model: {}
+}) <* Everything in the parenthesis is what information is allowed to be entered into your database.
+
+5) Copy and paste timestamp info from value.js in the end of your model inside the parenthesis.
+
+6) Inside dbContext, this is where you are going to put you collectons i.e.:
+Cars = mongoose.model('car', CarSchema)
+
+7) To make someone authorized to post in the database, put .use(Auth0Provider.getAuthorizedUserInfo). Inside of postman you have to open the authorization tab and make sure you delete the info provided and replace it with you actual bearer token by accessing the network tab under webdev tools and copy the bearer token under payload. <* This is only needed IF a user is trying to add, change or remove data from the database.
+
+8) 

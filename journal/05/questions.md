@@ -5,11 +5,11 @@
 
 02. Each action that `CRUD` represents maps to an HTTP request. What HTTP request does each `CRUD` action correspond to?
 
-  > | C= .push(), R= .get(), U= .put(), D= .delete().
+  > | C= .post(), R= .get(), U= .put(), D= .delete().
 
 03. What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 
-  > | ANSWER HERE |
+  > | Object Relational Mapper, we use mongoose to interact with mongoDB by translating our code into binary.
 
 04. Which two `HTTP` request types include a body?
 
