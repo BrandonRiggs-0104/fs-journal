@@ -21,7 +21,9 @@
 
 06. What are the three types of data relationships? Provide an example of each.
 
-  > | ANSWER HERE |
+  > | 1)One to One: a page in a book.
+  > | 2)One to Many: many pages belong to one specific book.
+  > | 3)Many to Many: an author could write more than one book but more than one author can work on a book.
 
 07. What is middleware?
 
