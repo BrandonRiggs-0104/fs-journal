@@ -27,7 +27,7 @@
 
 07. What is middleware?
 
-  > | ANSWER HERE |
+  > | a type of computer software that provides services to software applications beyond those available from the operating system.
 
 08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 

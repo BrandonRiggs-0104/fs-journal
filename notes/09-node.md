@@ -62,9 +62,10 @@
 
 5) Copy and paste timestamp info from value.js in the end of your model inside the parenthesis.
 
-6) Inside dbContext, this is where you are going to put you collectons i.e.:
+6) Inside dbContext, this is where you are going to put you collections i.e.:
 Cars = mongoose.model('car', CarSchema)
 
 7) To make someone authorized to post in the database, put .use(Auth0Provider.getAuthorizedUserInfo). Inside of postman you have to open the authorization tab and make sure you delete the info provided and replace it with you actual bearer token by accessing the network tab under webdev tools and copy the bearer token under payload. <* This is only needed IF a user is trying to add, change or remove data from the database.
 
-8) 
+// SECTION day-4 //
+1) 
