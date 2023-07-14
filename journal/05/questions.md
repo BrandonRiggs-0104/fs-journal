@@ -17,7 +17,7 @@
 
 05. In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
 
-  > | ANSWER HERE |
+  > | asynchronous model
 
 06. What are the three types of data relationships? Provide an example of each.
 
@@ -31,12 +31,12 @@
 
 08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 
-  > | ANSWER HERE |
+  > | Request Response
 
 09. Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 
-  > | ANSWER HERE |
+  > | ?tag=winter Here, the query is indicated with the ?. Then, it is followed with the key/value (or property/value) pair tag=winter. The entire query would be appended onto an /api url.
 
 10. What is a ***virtual property***?
 
-  > | ANSWER HERE |
+  > | Virtuals are additional fields for a given model
