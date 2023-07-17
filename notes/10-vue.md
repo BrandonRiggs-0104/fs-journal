@@ -35,4 +35,5 @@
 13) :key <*NOTE the key kind of acts like an if.
 14) @ <*NOTE instead on onclick you now would use @click, @submit. Then you can attach .prevent to the end like @click.prevent = "".
 
-15) 
+15) Putting a component inside the main vue page will insert all the given code inside the component. it should look like this: <NameofComponent />. It should be imported but it won't change font color to green, if it doesn't turn green then the import didn't work or never happened but the component still may work.
+
