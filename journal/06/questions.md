@@ -1,7 +1,7 @@
 # Single Page Applications with Vue
 01. What is the entrypoint of an application?
 
-  > | ANSWER HERE |
+  > | the createApp and the App files that are imported from vue.
 
 02. What is the difference between a vue `component` and `page`?
 
@@ -29,7 +29,7 @@
 
 08. What is the responsibility of `Services` in our Vue projects?
 
-  > | ANSWER HERE |
+  > | Still the only thing that can change data in the AppState.
 
 09. What are ***props*** and how are they used? Provide an example
 
