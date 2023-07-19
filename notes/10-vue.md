@@ -37,3 +37,16 @@
 
 15) Putting a component inside the main vue page will insert all the given code inside the component. it should look like this: <NameofComponent />. It should be imported but it won't change font color to green, if it doesn't turn green then the import didn't work or never happened but the component still may work.
 
+// SECTION Day-2
+
+1) lifecycle hooks: onMounted, onUpdate, onUnmounted
+
+2) Code within onMounted will be run when the vue updates and unMounted is all the code that will run when you leave your current page in vue.
+
+// SECTION Day-3
+
+1) The first thing that should always go inside a new function is a try/catch.
+
+2) After making a model you should create a space to store the data your getting back and then you have to map out the data in the service. After mapping out the data you need to save th data to the AppState.
+
+3)
