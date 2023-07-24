@@ -49,4 +49,55 @@
 
 2) After making a model you should create a space to store the data your getting back and then you have to map out the data in the service. After mapping out the data you need to save th data to the AppState.
 
-3)
+// SECTION week-7 day-1
+// SECTION <* Backend information
+
+1) Start by using express-vue for front end and back end. Once created immediately create a repository. Make sure your in the top folder, which means make sure you can see both the client and the server folders so they both get pushed to GitHub.
+
+2) Make sure you set up your server, (.env) inside the client folder.
+
+3) Start by making a schema: export const NameSchema = new Schema(). At the end of your new schema you need to place the timestamp: true toJSON: {virtuals: true} curly bracket thing outside the brackets for your actual schema. 
+
+4) After making a new schema in the models folder, you have to update the Dbcontext with the information of the schema.
+
+5) Then you make a controller, make sure the first thing you put in after the constructor is super(''), then below it put this.router.
+
+6) Under the this.router, you will make all your CRUD methods i.e.= Post, Get, Delete etc.
+
+7) Once you have the method declared above, make your function within the curly brackets below.
+
+8) New functions will always start with a try/catch. Don't forget in the params it always goes , (req, res, next) and the end always has a return.
+
+9) After the function has been declared you need to create a service. Inside the service you will write the actual function. The first line will be to define a variable: newSomething = await dbContext.Something.create(somethingData).
+Then you will always return the (somethingData) back to the controller.
+
+10) //NOTE <* You only have to await a .populate() if its being used for a create function/.post().
+
+// SECTION <* Frontend information
+
+1) On the homepage, start with making a function that will retrieve the data inside the setup using the onMounted.
+
+2) Create a Service file for the function you are creating on the homepage.
+
+3) Inside the service, create a class and export it, this is also where you will write an async function to retrieve the data and matches the call of that function on the homepage.
+
+4) Inside the onMounted, this is where you will put the function for it to be called.
+
+5) After you successfully retrieve the data from the database, you need to make a class inside the models folder. i.e.= constructor(data){
+  this.___ = data.____
+}
+
+6) After you created your model and you can successfully retrieve the data from the database, you need to create a space in the AppState that will allow you to save your data in the AppState.
+
+7) Inside the service, you must use .map() over an array, if you have to drill into an object, then get to the nested array first and then use .map(). //NOTE <* This is how you save your data to your AppState.
+
+8) After you successfully do that, do a raw data dump on the homepage {{ nameOfData }}
+
+9) If you get a raw data dump then you are good to go, now you have to create a "template" on the homepage that shows how you want the data represented on the page. i.e.= cards
+
+10) When setting a background img, the img should be placed in the App.vue body. This will allow it cover the navbar and footer. //NOTE <* You can get the saved img directory path by right clicking on it in vs code and click copy relative path and then reversing the backslash to forward slash.
+//NOTE - <* You can use background img asset fixed to make the background stationary while the page
+
+11) Inside the service, when setting up a prop, it should look like props: { nameProp: {type: string,array,object,etc, required: true}}
+
+12)
