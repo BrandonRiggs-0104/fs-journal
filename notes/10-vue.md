@@ -58,7 +58,7 @@
 
 3) Start by making a schema: export const NameSchema = new Schema(). At the end of your new schema you need to place the timestamp: true toJSON: {virtuals: true} curly bracket thing outside the brackets for your actual schema. 
 
-4) After making a new schema in the models folder, you have to update the Dbcontext with the information of the schema.
+4) After making a new schema in the models folder, you have to update the dbcontext with the information of the schema.
 
 5) Then you make a controller, make sure the first thing you put in after the constructor is super(''), then below it put this.router.
 
@@ -100,4 +100,11 @@ Then you will always return the (somethingData) back to the controller.
 
 11) Inside the service, when setting up a prop, it should look like props: { nameProp: {type: string,array,object,etc, required: true}}
 
-12)
+//SECTION week-7 day-2
+//NOTE Frontend Information
+
+1) Using beforeEnter: authSettled in the router will make sure all the authorization is completed and validated before sending a network request.
+
+//NOTE Backend information
+
+1) 
