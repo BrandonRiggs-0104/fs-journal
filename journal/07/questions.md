@@ -2,7 +2,7 @@
 
 1. Describe the two ways to bind Data in Vue?
 
-  > | ANSWER HERE |
+  > | : this is  way to bind data, as is 
 
 2. The `SPA` acronym stands for what?
 
@@ -14,7 +14,7 @@
 
 4. What does the `onMounted` method in Vue do?
 
-  > | ANSWER HERE |
+  > | Anything located inside an onMounted will run as that page is loaded for the user.
 
 5. What is the `v-model` attribute in Vue for, and when might you use it?
 
@@ -22,7 +22,7 @@
 
 6. What is the package.json file used for?
 
-  > | ANSWER HERE |
+  > | It is used to load any dependencies needed for the project or frameworks to work properly.
 
 7. Which Vue attributes(directives) could you use to conditionally render elements on a page?
 
