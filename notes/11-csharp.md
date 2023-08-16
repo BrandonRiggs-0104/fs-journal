@@ -247,10 +247,14 @@ private readonly IDbConnection _db;
 5) After you have made a model, the next step is to go and write a controller.
 
 6) After you create the controller you will have to go and create a service when you write your first request(i.e. get, post, etc)
+//NOTE remember that services are a class!
 
-7) After you create a service it has to then be connected to a repository.
+7) After you create a service it has to then be connected to a repository. 
+//NOTE remember that repositories are a class!
 
 8) Then make sure you go to startup.cs and connect your new repository as well as your new service so they can be injected when they are needed.
+//NOTE Make sure you update your startup every time you create a new table
 
-9) 
+9) Make sure to create a new table for every different data type (i.e. Albums, Pictures, Homes, Cars, etc..)
 
+10) 
