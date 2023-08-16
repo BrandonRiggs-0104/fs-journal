@@ -242,6 +242,15 @@ private readonly IDbConnection _db;
 
 3) Make sure you have gone to the server side and run the create account table in the dbSetup.sql, it should already be created but just re-run the execute to double check.
 
-4) 
+4) After you have your tables created on the server side you have to then create a model on the front end.
 
+5) After you have made a model, the next step is to go and write a controller.
+
+6) After you create the controller you will have to go and create a service when you write your first request(i.e. get, post, etc)
+
+7) After you create a service it has to then be connected to a repository.
+
+8) Then make sure you go to startup.cs and connect your new repository as well as your new service so they can be injected when they are needed.
+
+9) 
 
