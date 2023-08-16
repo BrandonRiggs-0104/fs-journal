@@ -13,7 +13,7 @@
 
 4. What is the difference between a `PRIMARY KEY` and a `FOREIGN KEY`
 
-  > | ANSWER HERE |
+  > | Primary key gives a unique identifier to everything in the table while foreign key is used to refrence something in a table from a different table.
 
 5. What is an ***alias***?
 
