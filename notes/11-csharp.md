@@ -257,4 +257,62 @@ private readonly IDbConnection _db;
 
 9) Make sure to create a new table for every different data type (i.e. Albums, Pictures, Homes, Cars, etc..)
 
-10) 
+//SECTION - week 11 full stack example before final.
+//NOTE Steps on creating a fullstack-app.
+
+1) start with bcw create, use dotnet.vue
+
+2) After the project is created open it in the workspace.
+
+3) Once it's open, make sure your database is connected, then setup the appsettings.deveopmnt.json and the env.js with the information you slacked yourself. Also mak sure you update the base url so its not localhost 3000 an change it into localhost 7045.
+
+4) Once the setting and env is setup start your server and client end using the debug category on the right hand side of the screen. 
+
+5) Using the UML provided, go to dbsetup, create a table and then execute it to create one in your database.
+//NOTE If you need the createdAt or updatedAt copy and paste it from the aaccounts table provided already.
+
+6) After the tables have been established, create the model, right click and do new C#, class, name of class.
+
+7) Fill in the properties that are on your table in the dbSetup.
+
+8) Next move onto controller, right click and select new C# controller.
+
+9) Then create a Service for your new controller
+
+10) then create a repository for your new service and controller.
+
+11) After all that is created go to startup and make sure you put in your new repository and service.
+
+12) Then start your post function in your controller, always start with [HttpPost] and [Authorize] (order of them doesn't matter).
+
+13) Always use a try catch to start with, catch will always be e.message and return a BadRequest(e.message).
+
+14) When using authorize 
+
+15) In the service, make a function for creating/post.
+
+16) Do the same thing for your repository by making a function for creating something.
+//NOTE if you are getting back an id, use ExecuteScalar at the end of your repository.
+
+18)  Don't forget that after you write and save any code at this point you will have to respin your server everytime.
+
+19) After you've created the post functions and they have been tested and you ca successfully create whatever then repeat the same steps again for [HttpGet].
+//NOTE when returning with an actionResult make sure you use Ok(whatever).
+
+20) Go to Account, add : Profile to the end of class Account. Then create a public class with the name of Profile.
+
+//SECTION Moving to front end afetr creating a post, get it all, and get by id
+
+21) In the homepage, create an async function to get your thing. Then create a service and make the function to get whatever you are trying to get.
+
+22) In your homepage, start with a try catch
+
+23) In your service, create a function to get whatever your wanting from your database.
+
+24) after you are able to console log all the things your trying to get from your database, You have to create a model with constructor(data).
+
+25) After your model has been setup you need to go to your appstate and create a place for your data to be saved
+
+26) Back on the homepage, to get data to be dumpable, use the {{}} then in the return make sure you do a computed for all the data.
+
+27) 
